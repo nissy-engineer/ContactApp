@@ -40,6 +40,14 @@ ContactAppClient/
 „¥„Ÿ„Ÿ public/
 „¥„Ÿ„Ÿ src/
 „    „¥„Ÿ„Ÿ assets/
+„    „¥„Ÿ„Ÿ components/
+„    „    „¤„Ÿ„Ÿ layout/
+„    „        „¥„Ÿ„Ÿ Layout.tsx
+„    „        „¤„Ÿ„Ÿ Sidebar.tsx
+„    „¥„Ÿ„Ÿ pages/
+„    „    „¥„Ÿ„Ÿ Home.tsx
+„    „    „¥„Ÿ„Ÿ ProductList.tsx
+„    „    „¤„Ÿ„Ÿ Settings.tsx
 „    „¥„Ÿ„Ÿ App.css
 „    „¥„Ÿ„Ÿ App.tsx
 „    „¥„Ÿ„Ÿ index.css
