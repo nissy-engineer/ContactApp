@@ -33,6 +33,41 @@ git pull
 ```
 
 
+## よく使うコマンド
+
+### フロントエンド
+```bash
+cd contactapp.client
+
+# 開発サーバー起動
+npm run dev
+
+# パッケージ追加
+npm install パッケージ名
+
+# ビルド
+npm run build
+```
+
+### バックエンド
+```bash
+cd ContactApp.Server
+
+# 開発サーバー起動
+dotnet run
+
+# パッケージ追加
+dotnet add package パッケージ名
+
+# ビルド
+dotnet build
+```
+
+## アクセス先
+
+- フロントエンド: https://localhost:62104/
+- バックエンドAPI: https://localhost:7271/
+
 
 ## フォルダ構成（クライアント）
 ```
@@ -48,7 +83,6 @@ ContactAppClient/
 │   │   ├── Home.tsx
 │   │   ├── ProductList.tsx
 │   │   └── Settings.tsx
-│   ├── App.css
 │   ├── App.tsx
 │   ├── index.css
 │   └── main.tsx

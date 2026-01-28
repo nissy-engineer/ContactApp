@@ -1,0 +1,191 @@
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    gap: 32px;
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+/* ヘッダー */
+.dashboard-header {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.page-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+}
+
+/* 統計セクション */
+.stats-section {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.stat-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+    .stat-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-color: #3498db;
+    }
+
+.stat-icon {
+    font-size: 40px;
+    flex-shrink: 0;
+}
+
+.stat-card.unanswered .stat-icon {
+    color: #e74c3c;
+}
+
+.stat-card.in-progress .stat-icon {
+    color: #3498db;
+}
+
+.stat-card.completed .stat-icon {
+    color: #27ae60;
+}
+
+.stat-info {
+    flex: 1;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+.stat-value {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+/* 最近の問い合わせセクション */
+.recent-section {
+    grid-column: 1;
+    grid-row: 3;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.issue-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.issue-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 16px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+    .issue-card:hover {
+        border-color: #3498db;
+        background-color: #f8f9fa;
+    }
+
+.issue-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.status-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+    .status-icon.unanswered {
+        color: #e74c3c;
+    }
+
+    .status-icon.in-progress {
+        color: #3498db;
+    }
+
+    .status-icon.completed {
+        color: #27ae60;
+    }
+
+.issue-product {
+    color: #3498db;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.issue-title {
+    font-size: 15px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.issue-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #7f8c8d;
+    padding-left: 28px;
+}
+
+.issue-author {
+    color: #5a6c7d;
+}
+
+.issue-separator {
+    color: #bdc3c7;
+}
+
+.view-all-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+    .view-all-button:hover {
+        background-color: #2980b9;
+    }
