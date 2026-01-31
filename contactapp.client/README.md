@@ -1,118 +1,118 @@
-## Git‘€ì•û–@
+## Gitæ“ä½œæ–¹æ³•
 
-### ƒvƒbƒVƒ…•û–@
+### ãƒ—ãƒƒã‚·ãƒ¥æ–¹æ³•
 
-**VSCode‚Ìê‡:**
+**VSCodeã®å ´åˆ:**
 ```bash
 cd C:\Users\ngu5t\Projects\ContactApp
 git add .
-git commit -m "C³“à—ei—á: ‚¨–â‚¢‡‚í‚¹ƒtƒH[ƒ€‚Ì’Ç‰Áj"
+git commit -m "ä¿®æ­£å†…å®¹ï¼ˆä¾‹: ãŠå•ã„åˆã‚ã›ãƒ•ã‚©ãƒ¼ãƒ ã®è¿½åŠ ï¼‰"
 git push
 ```
 
-**Visual Studio‚Ìê‡:**
+**Visual Studioã®å ´åˆ:**
 ```bash
 cd C:\Users\nishimura0606\source\repos\ContactApp
 git add .
-git commit -m "C³“à—ei—á: ‚¨–â‚¢‡‚í‚¹ƒtƒH[ƒ€‚Ì’Ç‰Áj"
+git commit -m "ä¿®æ­£å†…å®¹ï¼ˆä¾‹: ãŠå•ã„åˆã‚ã›ãƒ•ã‚©ãƒ¼ãƒ ã®è¿½åŠ ï¼‰"
 git push
 ```
 
-### ƒvƒ‹•û–@
+### ãƒ—ãƒ«æ–¹æ³•
 
-**VSCode‚Ìê‡:**
+**VSCodeã®å ´åˆ:**
 ```bash
 cd C:\Users\ngu5t\Projects\ContactApp
 git pull
 ```
 
-**Visual Studio‚Ìê‡:**
+**Visual Studioã®å ´åˆ:**
 ```bash
 cd C:\Users\nishimura0606\source\repos\ContactApp
 git pull
 ```
 
 
-## ‚æ‚­g‚¤ƒRƒ}ƒ“ƒh
+## ã‚ˆãä½¿ã†ã‚³ãƒãƒ³ãƒ‰
 
-### ƒtƒƒ“ƒgƒGƒ“ƒh
+### ãƒ•ãƒ­ãƒ³ãƒˆã‚¨ãƒ³ãƒ‰
 ```bash
 cd contactapp.client
 
-# ŠJ”­ƒT[ƒo[‹N“®
+# é–‹ç™ºã‚µãƒ¼ãƒãƒ¼èµ·å‹•
 npm run dev
 
-# ƒpƒbƒP[ƒW’Ç‰Á
-npm install ƒpƒbƒP[ƒW–¼
+# ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸è¿½åŠ 
+npm install ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸å
 
-# ƒrƒ‹ƒh
+# ãƒ“ãƒ«ãƒ‰
 npm run build
 ```
 
-### ƒoƒbƒNƒGƒ“ƒh
+### ãƒãƒƒã‚¯ã‚¨ãƒ³ãƒ‰
 ```bash
 cd ContactApp.Server
 
-# ŠJ”­ƒT[ƒo[‹N“®
+# é–‹ç™ºã‚µãƒ¼ãƒãƒ¼èµ·å‹•
 dotnet run
 
-# ƒpƒbƒP[ƒW’Ç‰Á
-dotnet add package ƒpƒbƒP[ƒW–¼
+# ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸è¿½åŠ 
+dotnet add package ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸å
 
-# ƒrƒ‹ƒh
+# ãƒ“ãƒ«ãƒ‰
 dotnet build
 ```
 
-## ƒAƒNƒZƒXæ
+## ã‚¢ã‚¯ã‚»ã‚¹å…ˆ
 
-- ƒtƒƒ“ƒgƒGƒ“ƒh: https://localhost:62104/
-- ƒoƒbƒNƒGƒ“ƒhAPI: https://localhost:7271/
+- ãƒ•ãƒ­ãƒ³ãƒˆã‚¨ãƒ³ãƒ‰: https://localhost:62104/
+- ãƒãƒƒã‚¯ã‚¨ãƒ³ãƒ‰API: https://localhost:7271/
 
 
-## ƒtƒHƒ‹ƒ_\¬iƒNƒ‰ƒCƒAƒ“ƒgj
+## ãƒ•ã‚©ãƒ«ãƒ€æ§‹æˆï¼ˆã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆï¼‰
 ```
 ContactAppClient/
-„¥„Ÿ„Ÿ public/
-„¥„Ÿ„Ÿ src/
-„    „¥„Ÿ„Ÿ assets/
-„    „¥„Ÿ„Ÿ components/
-„    „    „¤„Ÿ„Ÿ layout/
-„    „        „¥„Ÿ„Ÿ Layout.tsx
-„    „        „¤„Ÿ„Ÿ Sidebar.tsx
-„    „¥„Ÿ„Ÿ pages/
-„    „    „¥„Ÿ„Ÿ Home.tsx
-„    „    „¥„Ÿ„Ÿ ProductList.tsx
-„    „    „¤„Ÿ„Ÿ Settings.tsx
-„    „¥„Ÿ„Ÿ App.tsx
-„    „¥„Ÿ„Ÿ index.css
-„    „¤„Ÿ„Ÿ main.tsx
-„¥„Ÿ„Ÿ node_modules/
-„¥„Ÿ„Ÿ .gitignore
-„¥„Ÿ„Ÿ eslint.config.js
-„¥„Ÿ„Ÿ index.html
-„¥„Ÿ„Ÿ package.json
-„¥„Ÿ„Ÿ package-lock.json
-„¥„Ÿ„Ÿ README.md
-„¥„Ÿ„Ÿ tsconfig.json
-„¥„Ÿ„Ÿ tsconfig.app.json
-„¥„Ÿ„Ÿ tsconfig.node.json
-„¤„Ÿ„Ÿ vite.config.ts
+â”œâ”€â”€ public/
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ assets/
+â”‚   â”œâ”€â”€ components/
+â”‚   â”‚   â””â”€â”€ layout/
+â”‚   â”‚       â”œâ”€â”€ Layout.tsx
+â”‚   â”‚       â””â”€â”€ Sidebar.tsx
+â”‚   â”œâ”€â”€ pages/
+â”‚   â”‚   â”œâ”€â”€ Home.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductList.tsx
+â”‚   â”‚   â””â”€â”€ Settings.tsx
+â”‚   â”œâ”€â”€ App.tsx
+â”‚   â”œâ”€â”€ index.css
+â”‚   â””â”€â”€ main.tsx
+â”œâ”€â”€ node_modules/
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ eslint.config.js
+â”œâ”€â”€ index.html
+â”œâ”€â”€ package.json
+â”œâ”€â”€ package-lock.json
+â”œâ”€â”€ README.md
+â”œâ”€â”€ tsconfig.json
+â”œâ”€â”€ tsconfig.app.json
+â”œâ”€â”€ tsconfig.node.json
+â””â”€â”€ vite.config.ts
 ```
 
-## ƒtƒHƒ‹ƒ_\¬iƒT[ƒo[j
+## ãƒ•ã‚©ãƒ«ãƒ€æ§‹æˆï¼ˆã‚µãƒ¼ãƒãƒ¼ï¼‰
 ```
 ContactAppServer/
-„¥„Ÿ„Ÿ Properties/
-„    „¤„Ÿ„Ÿ launchSettings.json
-„¥„Ÿ„Ÿ bin/
-„    „¤„Ÿ„Ÿ Debug/
-„        „¤„Ÿ„Ÿ net10.0/
-„¥„Ÿ„Ÿ obj/
-„    „¤„Ÿ„Ÿ Debug/
-„        „¤„Ÿ„Ÿ net10.0/
-„¥„Ÿ„Ÿ appsettings.json
-„¥„Ÿ„Ÿ appsettings.Development.json
-„¥„Ÿ„Ÿ ContactAppServer.csproj
-„¥„Ÿ„Ÿ ContactAppServer.http
-„¤„Ÿ„Ÿ Program.cs
+â”œâ”€â”€ Properties/
+â”‚   â””â”€â”€ launchSettings.json
+â”œâ”€â”€ bin/
+â”‚   â””â”€â”€ Debug/
+â”‚       â””â”€â”€ net10.0/
+â”œâ”€â”€ obj/
+â”‚   â””â”€â”€ Debug/
+â”‚       â””â”€â”€ net10.0/
+â”œâ”€â”€ appsettings.json
+â”œâ”€â”€ appsettings.Development.json
+â”œâ”€â”€ ContactAppServer.csproj
+â”œâ”€â”€ ContactAppServer.http
+â””â”€â”€ Program.cs
 ```
