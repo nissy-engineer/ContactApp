@@ -3,8 +3,8 @@ import React from 'react';
 const ThreadDetail: React.FC = () => {
     return (
         <div style={{ padding: '32px' }}>
-            <h1>�X���b�h�ڍ�</h1>
-            <p>����E�񓚂̂���肪�����ɕ\������܂�</p>
+            <h1>スレッド詳細</h1>
+            <p>質問・回答のやり取りがここに表示されます</p>
         </div>
     );
 };

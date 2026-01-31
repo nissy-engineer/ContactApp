@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { AiOutlineHome } from 'react-icons/ai';
 import { MdOutlineInventory2 } from 'react-icons/md';

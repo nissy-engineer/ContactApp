@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { MdOutlineQuestionAnswer, MdCheckCircleOutline } from 'react-icons/md';
 import { BiLoaderCircle } from 'react-icons/bi';
 import './Home.css';

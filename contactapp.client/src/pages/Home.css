@@ -9,7 +9,7 @@
     min-height: 100vh;
 }
 
-/* ヘッダー */
+/* 繝倥ャ繝繝ｼ */
 .dashboard-header {
     grid-column: 1;
     grid-row: 1;
@@ -22,7 +22,7 @@
     margin: 0;
 }
 
-/* 統計セクション */
+/* 邨ｱ險医そ繧ｯ繧ｷ繝ｧ繝ｳ */
 .stats-section {
     grid-column: 1;
     grid-row: 2;
@@ -82,7 +82,7 @@
     color: #2c3e50;
 }
 
-/* 最近の問い合わせセクション */
+/* 譛霑代�ｮ蝠上＞蜷医ｏ縺帙そ繧ｯ繧ｷ繝ｧ繝ｳ */
 .recent-section {
     grid-column: 1;
     grid-row: 3;

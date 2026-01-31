@@ -10,7 +10,7 @@
 }
 
 .page-header {
-    /* ƒwƒbƒ_[ƒGƒŠƒA */
+    /* ãƒ˜ãƒƒãƒ€ãƒ¼ã‚¨ãƒªã‚¢ */
 }
 
 .page-title {
@@ -22,7 +22,7 @@
 }
 
 .search-section {
-    /* ŒŸõƒGƒŠƒA */
+    /* æ¤œç´¢ã‚¨ãƒªã‚¢ */
 }
 
 .search-box {
@@ -50,7 +50,7 @@
         color: #95a5a6;
     }
 
-/* ƒe[ƒuƒ‹ƒRƒ“ƒeƒi */
+/* ãƒ†ãƒ¼ãƒ–ãƒ«ã‚³ãƒ³ãƒ†ãƒŠ */
 .table-container {
     background: #ffffff;
     border-radius: 16px;
@@ -104,7 +104,7 @@
         white-space: nowrap;
     }
 
-/* ƒXƒNƒ[ƒ‹ƒo[‚ÌƒJƒXƒ^ƒ}ƒCƒY */
+/* ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ãƒãƒ¼ã®ã‚«ã‚¹ã‚¿ãƒã‚¤ã‚º */
 .table-container::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -123,20 +123,20 @@
         background: #95a5a6;
     }
 
-/* »•i”Ô† */
+/* è£½å“ç•ªå· */
 .product-id {
     font-weight: 700;
     color: #3498db;
     font-size: 15px;
 }
 
-/* »•i–¼ */
+/* è£½å“å */
 .product-name {
     color: #2c3e50;
     font-weight: 500;
 }
 
-/* “ŒvƒZƒ‹ */
+/* çµ±è¨ˆã‚»ãƒ« */
 .stat-cell {
     text-align: center;
     padding: 0 !important;
@@ -166,7 +166,7 @@
         color: #2e7d32;
     }
 
-/* ÅIXV */
+/* æœ€çµ‚æ›´æ–° */
 .updated-time {
     color: #7f8c8d;
     font-size: 13px;

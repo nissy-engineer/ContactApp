@@ -7,7 +7,7 @@
     height: 100vh;
 }
 
-/* ƒwƒbƒ_[iƒ^ƒCƒgƒ‹j */
+/* ãƒ˜ãƒƒãƒ€ãƒ¼ï¼ˆã‚¿ã‚¤ãƒˆãƒ«ï¼‰ */
 .sidebar-header {
     padding: 24px 20px;
 }
@@ -20,7 +20,7 @@
     letter-spacing: 0.3px;
 }
 
-/* ƒiƒrƒQ[ƒVƒ‡ƒ“ */
+/* ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ */
 .sidebar-nav {
     flex: 1;
     padding: 10px 0;
@@ -61,7 +61,7 @@
     font-size: 20px;
 }
 
-/* ƒ†[ƒU[î•ñ */
+/* ãƒ¦ãƒ¼ã‚¶ãƒ¼æƒ…å ± */
 .sidebar-user {
     padding: 20px;
     display: flex;
