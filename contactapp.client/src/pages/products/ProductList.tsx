@@ -28,8 +28,11 @@ const allProducts = [
 ];
 
 const ProductList: React.FC = () => {
+
+    // ページ遷移用の関数を取得
     const navigate = useNavigate();
 
+    // データ行選択のクリックイベント
     const handleRowClick = (productId: string) => {
         navigate(`/products/${productId}`);
     };
